@@ -8,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   loadedFeature = 'recipe';
   constructor() { }
-  ngOnInit() { }
+  ngOnInit() {
+  }
   onNavigation(feature: string) {
     this.loadedFeature = feature;
   }
+
 }
